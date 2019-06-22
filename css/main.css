@@ -1,0 +1,157 @@
+body{
+  margin:0 auto;
+  font-size: 12px;
+}
+
+.hide{
+  display: none;
+}
+
+
+h1{
+  width: 100%;
+  text-align: center;
+}
+
+#input_holder{
+  position: relative;
+  width: 100%;
+  text-align: center;
+}
+
+#show_all{
+  font-size: 20px;
+  position: absolute;
+  left:30px;
+  width: 30px;
+  height: 30px;
+  top:0px;
+}
+
+#main_input{
+  width: 60%;
+  height: 20px;
+  font-size: 12px;
+  padding: 3px 0px 3px 5px;
+  border: 1px solid grey;
+
+}
+
+#todo_list{
+  margin:0 auto;
+  width: 60%;
+ padding: 0px;
+  list-style: none;
+
+}
+
+.item{
+
+  margin-left: -3px;
+  padding-top: 4px;
+  padding-left: 10px;
+  width: 97%;
+  height: 30px;
+  border: 1px solid grey;
+  border-top: none;
+  font-size: 15px;
+}
+
+.del_button{
+  position: absolute;
+  padding-top: 3px;
+  left:75%;
+}
+
+.completed{
+color:grey;
+text-decoration: line-through;
+
+
+}
+
+#footer{
+  margin-left: auto;
+  margin-right: auto;
+  height: 80px;
+  width: 62%;
+  margin-top: 10px;
+}
+
+#all_done{
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  height: 30px;
+  width: 70%;
+  text-align: center;
+  padding-top: 5px;
+  background-color: rgb(90, 209, 18);
+  color: white;
+  font-size: 15px;
+  border-radius: 5px;
+
+}
+
+#all_active{
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  height: 30px;
+  width: 70%;
+  text-align: center;
+  padding-top: 5px;
+  background-color: rgb(230, 155, 28);
+  color: white;
+  font-size: 15px;
+  border-radius: 5px;
+
+}
+
+#clear{
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  height: 30px;
+  width: 70%;
+  text-align: center;
+  padding-top: 5px;
+  background-color: rgb(17, 117, 209);
+  color: white;
+  font-size: 15px;
+  border-radius: 5px;
+
+}
+
+#clear_done{
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  height: 30px;
+  width: 70%;
+  text-align: center;
+  padding-top: 5px;
+  background-color: rgb(0, 193, 141);
+  color: white;
+  font-size: 15px;
+  border-radius: 5px;
+
+}
+
+.edit{
+  position: relative;
+  top: -23px;
+  margin-left: -10px;
+  padding-top: 4px;
+  padding-left: 10px;
+  width: 100%;
+  height: 30px;
+  border: 1px solid grey;
+  border-top: none;
+  font-size: 15px;
+
+}
